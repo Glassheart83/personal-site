@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<section>
+    <div class="row">
+        <div class="col">
+            {%- if page.title -%}
+            <h2>{{ page.title }}</h2>
+            {%- endif -%}
+
+            {{ content }}
+        </div>
+    </div>
+</section>
