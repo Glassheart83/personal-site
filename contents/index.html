@@ -1,0 +1,15 @@
+---
+layout: default
+permalink: /
+---
+
+<section class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h2>Hello, World!</h2>
+        <p><em>This is an intro text!</em></p>
+    </div>
+</section>
+
+{% for card in site.cards %}
+    {{ card | markdownify }}
+{% endfor %}

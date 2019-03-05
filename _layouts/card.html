@@ -1,0 +1,15 @@
+<section class="container-fluid mb-3" role="row">
+    <div class="row">
+        {% if page.orientation == 'left' %}
+        <div class="col">
+            <img src="{{ page.picture | relative_url }}" height="300px" width="100%">
+        </div>
+        <div class="col pt-3 pb-3">{{ content }}</div>
+        {% else %}
+        <div class="col pt-3 pb-3">{{ content }}</div>
+        <div class="col">
+            <img src="{{ page.picture | relative_url }}" height="300px" width="100%">
+        </div>
+        {% endif %}
+    </div>
+</section>

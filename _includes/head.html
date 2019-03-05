@@ -27,5 +27,12 @@
         {%- include google-analytics.html -%}
     {%- endif -%}
 
-    <title>{{ site.title }}</title>
+    <title>
+            {%- if page.title -%}
+                {{ site.title }} - {{ page.title }}
+            {%- else -%}
+                {{ site.title }}
+            {%- endif -%}
+    </title>
+    
 </head>
