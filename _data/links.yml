@@ -5,3 +5,17 @@ header:
     url: /skills
   - title: Solutions
     url: /solutions
+
+socials:
+  - url: https://facebook.com/sfarfarini
+    icon: fa-facebook-f
+  - url: https://instagram.com/sfarfarini
+    icon: fa-instagram
+  - url: https://twitter.com/sfavfarino
+    icon: fa-twitter
+  - url: https://github.com/glassheart83
+    icon: fa-github
+  - url: https://www.linkedin.com/in/sfarfarini
+    icon: fa-linkedin-in
+  - url: http://telegram.me/mamagariancheno
+    icon: fa-telegram-plane
