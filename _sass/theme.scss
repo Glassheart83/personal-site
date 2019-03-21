@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+$font-family-sans-serif: 'Open Sans', sans-serif !default;
+$headings-font-family: $font-family-sans-serif !default;
+$headings-font-weight: 700 !default;
+
 @import "bootstrap/bootstrap.scss";
 
 $enable-shadows: true;
@@ -8,6 +12,19 @@ $theme-colors: (
   "custom-color": #900
 );
 
-.custom {
-    color: red;
+.site-title {
+  color: $white;
+  hr {
+    border-color: $yellow;
+  }
+  span {
+    color: $yellow;
+  }
+  i {
+    color: $yellow;
+  }
+}
+
+.site-header {
+  margin-top: $nav-link-height + $spacer;
 }
