@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+@import "bootstrap/bootstrap.scss";
+
+$enable-shadows: true;
+
 $theme-colors: (
   "custom-color": #900
 );
