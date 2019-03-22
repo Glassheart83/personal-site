@@ -1,6 +1,7 @@
 ---
 layout: abstract
 link: /about
+icon: far fa-address-card
 ---
 #### Presentazione
 ***

@@ -1,16 +1,12 @@
 @charset "utf-8";
 
-$font-family-sans-serif: 'Open Sans', sans-serif !default;
-$headings-font-family: $font-family-sans-serif !default;
-$headings-font-weight: 700 !default;
+@import "custom-bootstrap";
 
-@import "bootstrap/bootstrap.scss";
-
-$enable-shadows: true;
-
-$theme-colors: (
-  "custom-color": #900
-);
+.border-bottom {
+  &.thick {
+    border-bottom-width: 3px !important;
+  }
+}
 
 .site-title {
   color: $white;
@@ -27,4 +23,14 @@ $theme-colors: (
 
 .site-header {
   margin-top: $nav-link-height + $spacer;
+  margin-bottom: 0;
+}
+
+.triangle {
+  margin: 0 auto $jumbotron-padding auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1rem 1rem 0 1rem;
+  border-color: $dark transparent transparent transparent;
 }
