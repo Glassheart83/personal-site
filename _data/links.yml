@@ -1,10 +1,18 @@
 header:
-  - title: About
-    url: /about
-  - title: Skills
-    url: /skills
-  - title: Solutions
-    url: /solutions
+  it:
+    - title: Presentazione
+      url: /about
+    - title: Competenze
+      url: /skills
+    - title: Soluzioni
+      url: /solutions
+  en:
+    - title: About
+      url: /about
+    - title: Skills
+      url: /skills
+    - title: Solutions
+      url: /solutions
 
 socials:
   - url: https://facebook.com/sfarfarini

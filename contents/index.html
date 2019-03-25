@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /
+lang: it
 ---
 
 <section class="jumbotron jumbotron-fluid bg-dark site-header">
@@ -39,7 +40,8 @@ permalink: /
 </section>
 
 <section role="main">
-    {% for abstract in site.abstracts %}
+    {% assign abstracts = site.abstracts | where: "lang", page.lang %}
+    {% for abstract in abstracts %}
         {{ abstract | markdownify }}
     {% endfor %}
 </section>
