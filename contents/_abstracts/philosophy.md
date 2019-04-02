@@ -2,8 +2,6 @@
 layout: abstract
 link: /about
 icon: fas fa-landmark
-lang: it
-ref: philosophy
 ---
 #### Filosofia
 ***

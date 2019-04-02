@@ -2,8 +2,6 @@
 layout: abstract
 link: /skills
 icon: fas fa-laptop-code
-lang: it
-ref: skills
 ---
 #### Competenze
 ***
